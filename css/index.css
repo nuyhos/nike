@@ -1,0 +1,149 @@
+/* hero video */
+.hero_video_wrap {width:100%; height:100%; padding:0 56px; overflow: hidden; position:relative;}
+
+.hero_video {width:100%; height:100%; }
+
+.hero_video_text {width:100%; position:absolute; top:36px; left:92px;}
+
+
+/* 유튜브 비디오 
+
+.hero_video_wrap { width: 100%; height:900px; padding: 0 56px; overflow: hidden; position: relative; }
+.hero_video {width: 100%; margin:-90px 0 0 0; }
+.hero_video_wrap a {display: block; width: calc(100% - 112px); height: 100%; top:0; left:56px; position: absolute; background-color: rgba(0,0,0,0.4); }
+
+.hero_video_title { position: absolute; top:420px; left:0; text-align: center; width: 100%; font-family: 'Nike Futura'; font-size: 120px; color:rgba(255,255,255,0.8); }
+*/
+
+
+
+/* main visual image
+.main_visual_wrap {width:100%; padding:0 48px;}
+
+.main_visual {width:100%; padding:0 8px; display:flex;}
+
+.main_visual_1 {width:50%; height:900px; background-image: url(../img/shoes.jpg); background-position:-160px; padding:36px; display:flex; flex-direction: column; justify-content: flex-end;}
+
+.main_visual_1:hover {cursor:pointer;}
+
+.main_visual_2 {width:50%; height:900px; background-image: url(../img/shoes2.jpg); padding:36px; display:flex; flex-direction: column; justify-content: flex-end; align-items: flex-end;}
+*/
+
+
+/* button */
+
+.button_shop_white {width:95px; height:40px; border-radius:20px; background-color:white; color:rgb(17,17,17); text-align:center; line-height:40px; border:none; font-size:16px;}
+
+.button_shop_white:hover {background-color:rgba(255, 255, 255, 0.8);}
+
+.button_shop_black {width:95px; height:40px; border-radius:20px; background-color:rgb(17,17,17); color:white; text-align:center; line-height:40px; border:none; font-size:16px;}
+
+.button_shop_black:hover {background-color:rgba(0, 0, 0, 0.7);}
+
+
+
+/* the latest and greatest - best CSS */
+.best_wrap {width: 100%; padding: 84px 48px 0; }
+
+.best_scroll_wrap {width:100%; overflow:scroll; padding:0 0 20px 0;}
+
+.best {width: 200%; display:flex; }
+
+.best li {width:calc(16.66667% - 16px); height:auto; margin:0 8px;}
+
+.best li img {width:100%; vertical-align: middle;}
+
+.best li div {display: flex; justify-content:space-between; padding:12px 16px 0 0; }
+
+
+
+/* just in CSS */
+.just_in_wrap {width:100%; padding:84px 48px 0;}
+
+.just_in {width:100%; padding:0; display:flex; flex-wrap:wrap;}
+
+.just_in_1 {width:calc(50% - 16px); height:700px; background-image: url(../img/just_in_1.jpg); margin:0 8px;}
+
+.just_in_1 a {display:block; width:100%; height:100%; display:flex; flex-direction: column; justify-content: flex-end; padding:36px; }
+
+.just_in_2 {width:calc(50% - 16px); height:700px; background-image: url(../img/just_in_2.jpg); margin:0 8px;}
+
+.just_in_2 a {display:block; width:100%; height:100%; display:flex; flex-direction: column; justify-content: flex-end; padding:36px; }
+
+
+
+/* featured footwear CSS */
+.featured_footwear_wrap {width:100%; padding:84px 48px 0;}
+
+.featured_footwear {width:100%; padding:0 8px; display:flex;}
+
+.featured_footwear_1 {width:100%; height:700px; background-image: url(../img/airmax.jpg); background-position:-160px; padding:36px; display:flex; flex-direction: column; justify-content: flex-end;}
+
+.featured_footwear_1:hover {cursor:pointer;}
+
+
+
+/* trending now CSS */
+.trending_now_wrap {width:100%; height:auto; padding:84px 48px 0;}
+
+.trending_now {width:100%; display:flex;}
+
+.trending_now_1 {width:calc(50% - 16px); height:700px; margin:0 8px; background-image:url(../img/girl.jpg); }
+
+.trending_now_1_a {display:block; width:100%; height:100%; display:flex; flex-direction:column; justify-content:flex-end; padding:36px;}
+
+.trending_now_1_a:hover {background-color:rgba(40, 40, 40, 0.3);}
+
+.trending_now_2 {width:calc(50% - 16px); height:700px; margin:0 8px; background-image:url(../img/girl2.jpg); }
+
+.trending_now_2_a {display:block; width:100%; height:100%; display:flex; flex-direction:column; justify-content:flex-end; padding:36px;}
+
+
+
+/* gear CSS */
+.gear_wrap {width:100%; padding:84px 48px 0;}
+
+.gear {width:100%; display:flex; }
+
+.gear li {width:calc(100% / 3 - 16px); margin:0 8px;}
+
+.gear li img {width:100%; margin-bottom:8px;}
+
+.gear li p {font-size:20px; color:rgb(17,17,17)}
+
+
+
+/* nike slogan CSS */
+.slogan_wrap {width:100%; padding:84px 48px 0;}
+
+.slogan_wrap a {width:100%; height:100%;}
+
+.slogan {width:100%; height:500px; background-image:url(../img/slogan.png); margin:0 8px; display:flex; justify-content: center; align-items:flex-end; padding:0 0 30px;}
+
+.slogan button {margin:0 4px;}
+
+.button_join_black {display:inline-block; background-color:rgb(17,17,17); color:white; text-align:center; border-radius:20px; line-height:40px; border:none; font-size:16px; padding:0 28px;}
+
+.button_join_black:hover {background-color:rgba(0, 0, 0, 0.7);}
+
+
+
+
+
+/* menulink CSS */
+.menulink_wrap {width:100%; padding:84px 48px;}
+
+.menulink {width:880px; padding:0 8px; margin:0 auto; display: flex; justify-content: space-between; height:190px; overflow:hidden; transition: height 0.4s;}
+
+.menulink:hover {height:550px; }
+
+.menulink ul {width:192px;}
+
+.menulink ul li {margin:0 0 12px;}
+
+.menulink ul li:first-child {font-weight:500; line-height:24px; margin:0 0 24px;}
+
+.menulink ul a {color:rgb(126,126,126); font-weight:500; line-height:24px;}
+
+
+

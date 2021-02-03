@@ -1,0 +1,72 @@
+/* 텍스트 위계 공통 스타일 
+font-family; font-size; font-weight; line-height; letter-spacing; */
+
+
+/* Font Family */
+
+@font-face {
+   font-family:'Nike Futura';
+   src: url(../font/nike-futura.woff2) format('woff2');
+}
+
+
+@font-face {
+   font-family:'Nike TG';
+   src: url(../font/257c802f-349c-4b4d-aefa-546d5de15ec6.woff2) format('woff2');
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap');
+
+/* Font Style */
+
+body {font-family:'Noto Sans KR'; font-size:16px; font-weight:400; line-height:1.5; letter-spacing:normal; color:rgb(17, 17, 17);}
+
+div, ul, li {background-size:cover; background-position:center; list-style: none;}
+
+button {font-family:'Noto Sans KR'}
+
+button:hover {cursor:pointer;}
+
+h1 
+
+h2 {font-family:'Noto Sans KR'; font-size:24px; font-weight:500; line-height:28px; letter-spacing:normal;}
+
+h3 
+
+h4 {font-family:'Noto Sans KR'; font-size:20px; font-weight:500; line-height:24px; letter-spacing:normal;}
+
+h5 
+
+h6 
+
+p {font-family:'Noto Sans KR'; font-size:16px; font-weight:400; line-height:1.5; letter-spacing:normal;}
+
+
+.h4_16 {font-family:'Noto Sans KR'; font-size:20px; font-weight:500; line-height:24px; letter-spacing:normal;}
+.p_72 {font-family:'Noto Sans KR'; font-size:72px; font-weight:400; line-height: 60px;}
+.p_20 {font-size:20px; font-weight:400;}
+.p_14 {font-size:14px; font-weight:400;}
+.p_14_tg {font-family:'Noto Sans KR'; font-size:14px; font-weight:400;}
+.p_12 {font-size:12px; font-weight:400;}
+.p_10 {font-size:10px; font-weight:400;}
+
+/* Color Style */
+.c_black {color:rgb(17, 17, 17);}
+.c_gray {color:rgb(117,117,117);}
+.c_dgray {color:rgb(126,126,126);}
+.c_lgray {color:rgb(245,245,245);}
+.c_white {color:rgb(255,255,255);}
+
+
+.fw_200 {font-weight: 200;}
+.fw_500 {font-weight: 500;}
+
+
+.mb_8 {margin-bottom:8px;}
+.mb_18 {margin-bottom:18px;}
+.mb_24 {margin-bottom:24px;}
+.ml_8 {margin-left:8px;}
+.ml_56 {margin-left:56px;}
+
+.futura {font-family:'Nike Futura';}
