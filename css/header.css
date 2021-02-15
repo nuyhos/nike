@@ -1,6 +1,7 @@
 /* header */
 header {width:100%; height:auto;}
 
+/* GNB upper CSS */
 .gnb {width:100%; height:auto; }
 
 .gnb_upper {width:100%; height:36px; background-color: rgb(246,246,246); padding: 0 38px 0 36px; display:flex; justify-content: space-between;}
@@ -14,20 +15,22 @@ header {width:100%; height:auto;}
 .gnb_upper_usermenu li a {padding:0 8px; color:rgb(17,17,17);}
 .gnb_upper_usermenu li a:hover {color:rgb(150,150,150);}
 
+
+/* GNB Down CSS */
 .gnb_down {width:100%; height:60px; background-color:white; display:flex; justify-content: space-between; padding:0 38px 0 36px;}
 
-.gnb_down_left a {display:block; padding:0 12px; width:300px;}
+.gnb_down_left a {display:block; padding:0 12px;}
 .gnb_down_left a svg:hover {fill:rgb(150,150,150);}
 
-.gnb_down_mainmenu {display: flex; align-items: center;}
+.gnb_down_mainmenu {display: flex; }
 
-.gnb_down_mainmenu li a {font-size:16px; line-height:24px; font-weight:500; color: rgb(17,17,17); display:block; padding:16px 12px 18px;}
+.gnb_down_mainmenu li a {font-size:16px; line-height:24px; font-weight:500; color: rgb(17,17,17); display:block; padding: 18px 12px;}
 
 .gnb_down_mainmenu li a:hover {border-bottom:2px solid rgb(17,17,17); transition:0.1s}
 
-
-
 .gnb_down_right {display:flex; align-items: center; }
+
+.gnb_down_right li a {display:block; padding:4px; }
 
 .gnb_down_right li {margin:0 6px;}
 
@@ -43,16 +46,26 @@ header {width:100%; height:auto;}
 
 .gnb_down_right li:nth-child(3) a:hover {background-color:rgb(230,230,230); border-radius:18px;}
 
-.gnb_down_right li a {display:block; padding:4px; }
-
 .gnb_down_right li a svg {vertical-align:middle;}
 
-
-/* Main Banner */
-.main_banner {height:58px; padding:10px 0 0 0; text-align:center; background-color: rgb(246,246,246);border-bottom:1px solid rgba(128, 128, 128, 0.2); line-height:18px;}
-
-.main_banner a {font-size:12px; color:rgb(17,17,17);text-decoration:underline; }
+.gnb_down_right_m {display:none;}
 
 
+/* CSS for tablet port */
+@media screen and (max-width:1023px) {
+   .gnb_upper {display:none;}
 
+   .gnb_down {padding:0 10px 0;}
 
+   .gnb_down_mainmenu {display:none;}
+
+   .gnb_down_right {display:none;}
+
+   .gnb_down_right_m {display:flex; align-items: center;}
+
+   .gnb_down_right_m li a {display:block; padding:8px 8px 4px;  line-height:24px; }
+
+   .gnb_down_right_m li a:hover {background-color:rgb(230,230,230); border-radius:20px; }
+
+   .gnb_down_right_m li {margin:0 6px;}
+}

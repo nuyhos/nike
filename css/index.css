@@ -1,3 +1,8 @@
+/* Main Banner */
+.main_banner {height:58px; padding:10px 0 0 0; text-align:center; background-color: rgb(246,246,246);border-bottom:1px solid rgba(128, 128, 128, 0.2); line-height:18px;}
+
+.main_banner a {font-size:12px; color:rgb(17,17,17);text-decoration:underline; }
+
 /* hero video 자체 비디오 */
 .hero_video_wrap {width:100%; height:100%; padding:0 56px; overflow: hidden; position:relative;}
 
@@ -5,20 +10,24 @@
 
 .hero_video_text {width:100%; position:absolute; top:36px; left:92px;}
 
-
-/* hero video 유튜브 비디오  */
-
-.hero_video_wrap { width: 100%; height:900px; padding: 0 56px; overflow: hidden; position: relative; }
-
-.hero_video {width: 100%; margin:-90px 0 0 0; }
-
-.hero_video_wrap a {display: block; width: calc(100% - 112px); height: 100%; top:0; left:56px; position: absolute; background-color: rgba(0,0,0,0.4); }
-
-.hero_video_title { position: absolute; top:360px; left:0; text-align: center; width: 100%; font-family: 'Nike Futura'; font-size: 120px; color:rgba(255,255,255,0.5); }
+.hero_video_text_p {display:none;}
 
 
 
-/* main visual image  */
+/* hero video 유튜브 비디오 
+
+.hero_youtube_wrap { width: 100%; height:900px; padding: 0 56px; overflow: hidden; position: relative; }
+
+.hero_youtube {width: 100%; margin:-90px 0 0 0; }
+
+.hero_youtube_wrap a {display: block; width: calc(100% - 112px); height: 100%; top:0; left:56px; position: absolute; background-color: rgba(0,0,0,0.4); }
+
+.hero_youtube_title { position: absolute; top:360px; left:0; text-align: center; width: 100%; font-family: 'Nike Futura'; font-size: 120px; color:rgba(255,255,255,0.5); }
+*/
+
+
+
+/* main visual image */
 .main_visual_wrap {width:100%; padding:0 48px;}
 
 .main_visual {width:100%; padding:0 8px; display:flex;}
@@ -29,20 +38,7 @@
 
 .main_visual_2 {width:50%; height:900px; background-image: url(../img/shoes2.jpg); padding:36px; display:flex; flex-direction: column; justify-content: flex-end; align-items: flex-end;}
 
-
-
-/* the latest and greatest - best CSS */
-.best_wrap {width: 100%; padding: 84px 48px 0; }
-
-.best_scroll_wrap {width:100%; overflow:scroll; padding:0 0 20px 0;}
-
-.best {width: 200%; display:flex; }
-
-.best li {width:calc(16.66667% - 16px); height:auto; margin:0 8px;}
-
-.best li img {width:100%; vertical-align: middle;}
-
-.best li div {display: flex; justify-content:space-between; padding:12px 16px 0 0; }
+.main_visual_1 img {display: none;}
 
 
 
@@ -61,12 +57,27 @@
 
 
 
+/* the latest and greatest - best CSS */
+.best_wrap {width: 100%; padding: 84px 48px 0; }
+
+.best_scroll_wrap {width:100%; overflow:scroll; padding:0 0 20px 0;}
+
+.best {width: 200%; display:flex; }
+
+.best li {width:calc(16.66667% - 16px); height:auto; margin:0 8px;}
+
+.best li img {width:100%; vertical-align: middle;}
+
+.best li div {display: flex; justify-content:space-between; padding:12px 16px 0 0; }
+
+
+
 /* featured footwear CSS */
 .featured_footwear_wrap {width:100%; padding:84px 48px 0;}
 
 .featured_footwear {width:100%; padding:0 8px; display:flex;}
 
-.featured_footwear_1 {width:100%; height:700px; background-image: url(../img/airmax.jpg); background-position:-160px; padding:36px; display:flex; flex-direction: column; justify-content: flex-end;}
+.featured_footwear_1 {width:100%; height:700px; background-image: url(../img/airmax.jpg); padding:36px; display:flex; flex-direction: column; justify-content: flex-end;}
 
 .featured_footwear_1:hover {cursor:pointer;}
 
@@ -109,12 +120,7 @@
 
 .slogan {width:100%; height:500px; background-image:url(../img/slogan.png); margin:0 8px; display:flex; justify-content: center; align-items:flex-end; padding:0 0 30px;}
 
-.slogan button {margin:0 4px;}
-
-
-
-
-
+.slogan button {margin:0 4px; }
 
 
 /* menulink CSS */
@@ -130,7 +136,7 @@
 
 .menulink ul li:first-child {font-weight:500; line-height:24px; margin:0 0 24px;}
 
-.menulink ul a {color:rgb(126,126,126); font-weight:500; line-height:24px;}
+.menulink ul a {font-size:16px; color:rgb(126,126,126); font-weight:500; line-height:24px;}
 
 
 /* button_shop */
@@ -150,3 +156,210 @@
 .button_join_black {display:inline-block; background-color:rgb(17,17,17); color:white; text-align:center; border-radius:20px; line-height:40px; border:none; font-size:16px; padding:0 28px;}
 
 .button_join_black:hover {background-color:rgba(0, 0, 0, 0.7);}
+
+
+/* CSs for tablet landscape & mini notebook (1280, 1366) */
+@media screen and (max-width:1439px) {
+   /* main visual image landscape */
+   .main_visual_1 {height:700px;}
+
+   .main_visual_2 {height:700px;}
+   
+   
+   /* hero video landscape */
+
+   
+
+   /* just in landscape */
+   .just_in_1 {height:500px;}
+
+   .just_in_2 {height:500px;}
+
+   /* featured footwear landscape */
+   .featured_footwear_1 {height:500px;}
+
+   /* trending now landscape */
+   .trending_now_1 {height:500px;}
+
+   .trending_now_2 {height:500px;}
+
+}
+
+
+
+/* CSS for tablet port */
+@media screen and (max-width:1023px) {
+   /* hero video tablet*/
+   .hero_video_wrap {width:100%; padding:0 20px;}
+
+   .hero_video_text {width:100%; position:absolute; top:36px; left:56px;}
+
+   .hero_video_text p:nth-child(1) {font-size:48px; line-height:40px;}
+
+   .hero_video_text p:nth-child(2) {font-size:14px; line-height:20px;}
+   
+
+   /* main visual image tablet */
+   .main_visual_wrap {padding:0 12px;}
+
+   .main_visual_1 {height:500px; background-position:0;}
+
+   .main_visual_1 p:nth-child(2) {font-size:48px; line-height: 40px;}
+
+   .main_visual_1 p:nth-child(3) {font-size:14px; line-height:20px;}
+
+   .main_visual_2 {height:500px;}
+
+   .main_visual_2 p {font-size:14px; line-height:20px;}
+   
+
+   /* just in tablet */
+   .just_in_wrap {width:100%; padding:84px 12px 0;}
+
+   .just_in_1 {height:500px;}
+
+   .just_in_2 {height:500px;}
+
+   /* the latest and greatest - best */
+   .best_wrap { width: 100%; padding:84px 0 0;}
+
+   .best_scroll_wrap { width: 100%; overflow: scroll; padding: 0 0 20px 12px;}
+
+   .best_wrap h2 { padding:0 0 0 12px;}
+
+   /* featured footwear tablet */
+
+   .featured_footwear_wrap {width:100%; padding:84px 12px 0;}
+
+   .featured_footwear_1 {background-image: url(../img/airmax2.jpg);}
+
+   .p_72 {font-size:48px; line-height:40px;}
+
+   .mb_18 {font-size:12px; line-height:20px;}
+   
+
+   /* trending now tablet */
+   .trending_now_wrap {width:100%; padding:84px 12px 0;}
+
+   .trending_now_1 {height: 500px;}
+
+   .trending_now_2 {height: 500px;}
+
+   /* gear tablet */
+   .gear_wrap {width:100%; padding:84px 12px 0;}
+
+   .gear_scroll_wrap {width:100%; overflow: scroll; padding:0 0 20px 0;}
+
+   .gear {width:1038px;}
+
+   .gear_1 {width:330px;}
+   .gear_2 {width:330px;}
+   .gear_3 {width:330px;}
+
+   /* menulink tablet */
+   .menulink_wrap {width:100%; padding:84px 12px 30px;}
+
+   .menulink {width:100%; padding:0 8px;}
+
+   .menulink ul {width:25%;}
+
+   .menulink ul li a {font-size:14px; line-height:24px;}
+
+   .menulink ul li:first-child {font-size:14px; line-height:24px;}
+} 
+
+
+/* CSS for mobile landscape */
+@media screen and (max-width:767px) {
+
+
+
+
+
+}
+
+
+/* CSS for mobile portrait */
+@media screen and (max-width:639px) {
+   /* hero video 자체 비디오 mobile */
+
+   .hero_video_text {display:none;}
+
+   .hero_video_text_p {display:block; margin-top:18px;}
+
+   .hero_video_text_p p:nth-child(1) {font-size:48px; line-height:40px;}
+
+   .hero_video_text_p p:nth-child(2) {font-size:14px; line-height:20px;}
+
+
+   /* main visual image mobile
+   .main_visual { width: 100%; padding: 0 8px; display: flex; flex-wrap: wrap;}
+
+   .main_visual_1 { width:100%; height: auto; background-image: none; padding: 0px;}
+
+   .main_visual_1 img {display: block; margin: 0 0 20px 0;  width: 100%;}
+
+   .main_visual_1 p { color:rgb(17,17,17);}
+
+   .main_visual_1 a { color:white; background-color: rgb(17,17,17);}
+   .main_visual_1 a:hover {background-color:rgba(0, 0, 0, 0.7);}
+   .main_visual_2 {display:none;}
+   */
+
+
+   /* just in mobile */
+   .just_in_wrap {flex-wrap:wrap;}
+
+   .just_in_1 {width:100%; height:500px; margin:0 8px 8px; }
+
+   .just_in_2 {width:100%; height:500px;}
+
+
+   /* the latest and greatest - best CSS mobile */
+   .best {width: 1892px; display:flex; }
+
+   .best li {width:300px; height:auto; margin:0 8px;}
+
+
+   /* featured footwear mobile */   
+   .featured_footwear_1 {background-image: url(../img/airmax3.jpg);}  
+
+
+   /* trending now mobile */ 
+   .trending_now {flex-wrap:wrap;}
+
+   .trending_now_1 {width:100%; height:500px; margin:0 8px 8px; }
+
+   .trending_now_2 {width:100%; height:500px;}
+
+
+   /* gear mobile */
+   .gear_wrap {width:100%; padding:84px 12px 0;}
+
+   .gear_scroll_wrap {width:100%; overflow: scroll; padding:0 0 20px 0;}
+
+   .gear {width:948px;}
+
+   .gear_1 {width:300px;}
+   .gear_2 {width:300px;}
+   .gear_3 {width:300px;}
+
+
+   /* slogan mobile */
+   .slogan_wrap {width:100%; padding:94px 0 0;}
+
+   .slogan {background-image:url(../img/slogan2.jpg); }
+
+
+   /* menulink mobile */
+   .menulink_wrap {width:100%; padding:84px 12px 30px;}
+
+   .menulink {width:100%; padding:0 8px; flex-wrap:wrap;}
+
+   .menulink ul {width: 100%; height: 40px; overflow: hidden;}
+
+   .menulink ul li a {font-size:14px; line-height:24px;}
+
+   .menulink ul li:first-child {font-size:14px; line-height:24px;}
+   
+}
